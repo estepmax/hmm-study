@@ -1,6 +1,7 @@
 import numpy as np
 
 class Viterbi(object):
+    
     '''
     args:
         obs_s: observation space
@@ -9,6 +10,7 @@ class Viterbi(object):
         t_m: transition matrix
         e_m: emission matrix
     '''
+
     def __init__(self,obs_s,state_s,init_p,t_m,e_m):
         self.obs_s = obs_s
         self.state_s = state_s

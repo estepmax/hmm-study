@@ -1,6 +1,8 @@
 import numpy as np
 from viterbi import Viterbi
 
+#based on viterbi algorithm wiki article: https://en.wikipedia.org/wiki/Viterbi_algorithm
+
 obs_s = [0,1,2]
 state_s = ['a','b']
 init_p = np.array([0.6,0.4])
